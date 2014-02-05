@@ -118,7 +118,7 @@ I'm assuming that you are using GMail, but the script can be easily adapted to a
 
 Create a new file, call it "sendemail.py" and paste this code into it
 
-```
+```python
 # coding=utf-8
 
 # Copyright (C) 2014  Stefano Guglielmetti
@@ -188,7 +188,7 @@ send_mail(from_address, to_address, email_subject, email_body, [sys.argv[1]], se
 
 now you have to customise the email settings
 
-```
+```python
 
 #From address, to address, subject and message body
 from_address    = 'FROM_ADDRESS@EMAIL.COM'
@@ -239,7 +239,7 @@ We've connected the PIR sensor, and a LED that will turn on when the device dete
 Copy this code to the Arduino IDE and upload it to your Yún
 
 
-```
+```c
 /* 
  * Switches a LED, takes a picture and sends it via email
  * according to the state of the sensors output pin.
