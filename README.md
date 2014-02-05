@@ -213,7 +213,7 @@ Now you can upload the script to the Arduino Yún SD card via SFTP (or SCP, if y
 	$cd /mnt/sda1
 	$python sendemail.py test.png
 
-And in a few seconds you will receive and email with the picture attachment... amazing!
+And in a few seconds you will receive an email with the picture attachment... amazing!
 
  
 
