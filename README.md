@@ -49,6 +49,12 @@ Then let's install some useful packages
 
 Why the openssh-sftp-server? Because it would be easier for you to upload and download files from/to the Arduino: now you can use a generic SFTP client (filezilla, transmit or cyberduck) instead of SCP command
 
+Then, we have have to install the SSL support package for Python (thanks [sbkirby](https://github.com/sbkirby)! Because it's not included in the default packages
+
+	$opkg update
+	$opkg install python-openssl
+
+
 If you have one, I highly recommend to put a micro SD card into the Arduino Yún. It will be automatically mounted in /mnt/sda1 
 
 Then, we will install the USB Camera and USB Soundcard on the Yún
